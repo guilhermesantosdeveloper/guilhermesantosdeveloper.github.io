@@ -53,7 +53,7 @@
               <a class="pt-trigger" href="index.html#resume">Currículo</a>
             </li>
             <li>
-              <a class="pt-trigger" href="index.html#services">Serviços</a>
+              <a class="pt-trigger" href="index.html#services">Destaques</a>
             </li>
             <li>
               <a class="pt-trigger" href="index.html#portfolio">Portfólio</a>
@@ -73,7 +73,7 @@
       </div>
 
       <a class="menu-toggle mobile-visible">
-        <i class="fa fa-bars"></i>
+        <i class="bi bi-list"></i>
       </a>
     </div>
     <!-- /Mobile Header -->
@@ -92,7 +92,7 @@
                 <div class="row">
                   <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="photo">
-                      <img src="images/guilherme_santos.jpg" alt="Guilherme Santos" style="">
+                      <img src="images/guilherme_santos.jpg" alt="Guilherme Santos">
                     </div>
                   </div>
 
@@ -110,11 +110,15 @@
                     </div>
 
                     <div class="social-links">
-                      <a href="#"><i class="bi bi-linkedin">
+                      <a target="_blank" href="https://www.linkedin.com/in/guilherme-santos-610a42249/"><i
+                          class="bi bi-linkedin">
 
                         </i></a>
-                      <a href="#"><i class="bi bi-github"></i></a>
-                      <a href="#"><i class="bi bi-whatsapp"></i></a>
+                      <a target="_blank" href="https://github.com/guilhermesantosdeveloper"><i
+                          class="bi bi-github"></i></a>
+                      <a target="_blank"
+                        href="https://api.whatsapp.com/send/?phone=553190891785&text=Quero+contratar+um+servi%C3%A7o&type=phone_number&app_absent=0"><i
+                          class="bi bi-whatsapp"></i></a>
                     </div>
                   </div>
                 </div>
@@ -361,7 +365,7 @@
           <section class="pt-page" data-id="services">
             <div class="section-inner custom-page-content">
               <div class="page-header color-1">
-                <h2>Serviços Prestados</h2>
+                <h2>Destaques</h2>
               </div>
               <div class="page-content">
                 <!-- My Services -->
@@ -438,10 +442,10 @@
                       <div class="service-block">
                         <div class="service-info">
                           <div class="service-image">
-                            <img src="images/service/channels4_profile.jpg" alt="Advetising" class="mCS_img_loaded">
+                            <img src="images/service/channels4_profile.png" alt="Advetising" class="mCS_img_loaded">
                           </div>
                           <h4>Seu Négocio Automático</h4>
-                          <p>Site que fiz utilizando WordPress para oferecer de Automações</p>
+                          <p>Site que fiz utilizando WordPress para oferecer serviços de Automações</p>
                         </div>
                       </div>
                     </div>
@@ -489,13 +493,19 @@
                       <a class="filter btn btn-sm btn-link active" data-group="all">Tudo</a>
                     </li>
                     <li>
-                      <a class="filter btn btn-sm btn-link" data-group="media">Automações</a>
+                      <a class="filter btn btn-sm btn-link" data-group="automacao">Automações</a>
                     </li>
                     <li>
-                      <a class="filter btn btn-sm btn-link" data-group="illustration">Web Scraping</a>
+                      <a class="filter btn btn-sm btn-link" data-group="web">Web Scraping</a>
                     </li>
                     <li>
-                      <a class="filter btn btn-sm btn-link" data-group="video">Chatbots</a>
+                      <a class="filter btn btn-sm btn-link" data-group="chatbots">Chatbots</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="apis">Api's</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="site">Sites</a>
                     </li>
                   </ul>
                   <!-- End of Portfolio filter -->
@@ -504,163 +514,104 @@
                   <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
 
                     <!-- Portfolio Item 1 -->
-                    <figure class="item" data-groups='["all", "media"]'>
-                      <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/1.jpg" alt="">
+                    <figure class="item" data-groups='["all", "automacao"]'>
+                      <a href="images/portfolio/binarias.png" class="lightbox"
+                        title="Script Python que roda em background em um servidor linux, responsável por realizar apostas em diversos pares em horários pré-definidos. Utilizando da estratégia MHI. O robô escolhe o melhor par JPY dentre os disponíveis na plataforma IqOption. Ele aplica uma serie de regras para escolher um par, como contagem de velas (escolhe quando a diferença tende para um lado), ultimo hit da estratégia está dentro do período de 1 hora.">
+                        <img src="images/portfolio/binarias.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Media</small>
-                          <i class="fa fa-file-text-o"></i>
+                          <h5 class="name">Robô Opções Binárias</h5>
+                          <small>Automação</small>
+                          <i class="bi bi-roboto"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 1 -->
 
                     <!-- Portfolio Item 2 -->
-                    <figure class="item" data-groups='["all", "video"]'>
-                      <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex"
+                    <figure class="item" data-groups='["all", "automacao", "chatbots"]'>
+                      <a href="https://www.youtube.com/embed/6ceBtzjpsFA"
+                        title="Programa para Windows e Linux, desenvolvido utilizando ElectronJs. O software permite criar atendentes personalizados para o WhatsApp e disparar mensagens automaticamente para todos os seus contatos."
                         class="lightbox mfp-iframe">
-                        <img src="images/portfolio/2.jpg" alt="">
+                        <img src="images/portfolio/mrbotchat.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Video</small>
-                          <i class="fa fa-video-camera"></i>
+                          <h5 class="name">MrBotChat</h5>
+                          <small>ChatBot</small>
+                          <i class="bi bi-robot"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 2 -->
 
                     <!-- Portfolio Item 3 -->
-                    <figure class="item" data-groups='["all","illustration"]'>
-                      <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/3.jpg" alt="">
+                    <figure class="item" data-groups='["all","site"]'>
+                      <a href="https://www.youtube.com/embed/hEAXK5KBa-0" class="lightbox mfp-iframe" title="a">
+                        <img src="images/portfolio/portifolio.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Illustration</small>
-                          <i class="fa fa-image"></i>
+                          <h5 class="name">Site Portifólio</h5>
+                          <small>Site</small>
+                          <i class="bi bi-browser-chromee"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 3 -->
 
                     <!-- Portfolio Item 4 -->
-                    <figure class="item" data-groups='["all", "media"]'>
-                      <a href="images/portfolio/full/4.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/4.jpg" alt="">
+                    <figure class="item" data-groups='["all", "site"]'>
+                      <a href="https://www.youtube.com/embed/KOYutknA-_c" class="lightbox mfp-iframe"
+                        title="Site da agência, feito utilizando o CMS do WordPress para oferecer serviços de automações.">
+                        <img src="images/portfolio/perfil_ig.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Media</small>
-                          <i class="fa fa-file-text-o"></i>
+                          <h5 class="name">Seu Negocio Automatico</h5>
+                          <small>Site</small>
+                          <i class="bi bi-browser-chrome"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 4 -->
 
                     <!-- Portfolio Item 5 -->
-                    <figure class="item" data-groups='["all", "illustration"]'>
-                      <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
-                        <img src="images/portfolio/5.jpg" alt="">
+                    <figure class="item" data-groups='["all", "web"]'>
+                      <a href="https://www.youtube.com/embed/5MTw0-E8CR0" class="lightbox mfp-iframe"
+                        title="Programa de Web Scraping com interface gráfica feito utilizando ElectronJs, o programa permite pesquisar por Tipo de Estabelecimentos (Restaurantes, Bares, Barbearias ... etc) e Localidade (Bairro, Cidade, Estado). Ele entra no site google maps , realiza a pesquisa com os paramêtros passados na interface do programa. Extrai os seguintes dados dos estabelecimentos encontrados: 'Nome do Estabelecimento', 'Endereço', 'Telefone'. E salva em um arquivo .csv">
+                        <img src="images/portfolio/google_scraping.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Illustration</small>
-                          <i class="fa fa-image"></i>
+                          <h5 class="name">Extrai Dados Google Maps</h5>
+                          <small>Web Scraping</small>
+                          <i class="bi bi-search"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 5 -->
 
                     <!-- Portfolio Item 6 -->
-                    <figure class="item" data-groups='["all", "media"]'>
-                      <a href="images/portfolio/full/6.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/6.jpg" alt="">
+                    <figure class="item" data-groups='["all", "apis"]'>
+                      <a href="images/portfolio/api.png" class="lightbox"
+                        title="Api para receber dados de requisições vindas de formulários de aplicações webs e nativas para cadastrar leads em base de dados locais e iniciar um processo de automação de e-mails.">
+                        <img src="images/portfolio/api.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Media</small>
-                          <i class="fa fa-file-text-o"></i>
+                          <h5 class="name">Api de Cadastros Leads MrBotChat</h5>
+                          <small>API</small>
+                          <i class="bi bi-browser-chrome"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 6 -->
 
                     <!-- Portfolio Item 7 -->
-                    <figure class="item" data-groups='["all", "video"]'>
-                      <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi"
+                    <figure class="item" data-groups='["all", "chatbots"]'>
+                      <a href="images/portfolio/cadastro.jpg"
+                        title="Chatbot que funciona do lado de um servidor, responsável por prestar atendimentos estruturados para clientes com duvidas sobre a ferramenta MrBotChat, e criar contas gratuitas da mesma. O mesmo faz uso do Firebase Auth. Verifica se o contato ja fez o cadastro, se já não permite fazer novamente."
                         class="lightbox mfp-iframe">
-                        <img src="images/portfolio/7.jpg" alt="">
+                        <img src="images/portfolio/chatbot.png" alt="">
                         <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Video</small>
-                          <i class="fa fa-video-camera"></i>
+                          <h5 class="name">ChatBot Cadastro Leads</h5>
+                          <small>ChatBot</small>
+                          <i class="bi bi-chat-fill"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Portfolio Item 7 -->
 
-                    <!-- Portfolio Item 8 -->
-                    <figure class="item" data-groups='["all",  "media"]'>
-                      <a href="images/portfolio/full/1.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/8.jpg" alt="">
-                        <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Media</small>
-                          <i class="fa fa-file-text-o"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <!-- /Portfolio Item 8 -->
-
-                    <!-- Portfolio Item 9 -->
-                    <figure class="item" data-groups='["all","illustration"]'>
-                      <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
-                        <img src="images/portfolio/9.jpg" alt="">
-                        <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Illustration</small>
-                          <i class="fa fa-image"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <!-- /Portfolio Item 9 -->
-
-                    <!-- Portfolio Item 10 -->
-                    <figure class="item" data-groups='["all", "video"]'>
-                      <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu"
-                        class="lightbox mfp-iframe">
-                        <img src="images/portfolio/10.jpg" alt="">
-                        <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Video</small>
-                          <i class="fa fa-video-camera"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <!-- /Portfolio Item 10 -->
-
-                    <!-- Portfolio Item 11 -->
-                    <figure class="item" data-groups='["all","illustration"]'>
-                      <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/11.jpg" alt="">
-                        <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Illustration</small>
-                          <i class="fa fa-image"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <!-- /Portfolio Item 11 -->
-
-                    <!-- Portfolio Item 12 -->
-                    <figure class="item" data-groups='["all","media"]'>
-                      <a href="images/portfolio/full/1.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                        <img src="images/portfolio/12.jpg" alt="">
-                        <div>
-                          <h5 class="name">Project Name</h5>
-                          <small>Media</small>
-                          <i class="fa fa-file-text-o"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <!-- /Portfolio Item 12 -->
                   </div>
                   <!-- /Portfolio Grid -->
 
